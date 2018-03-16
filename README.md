@@ -1,7 +1,3 @@
-# This repository is no longer maintained.
- 
- Issue reports and pull requests will not be attended.
-
 # Inky
 
 A PHP Implementation of ZURB's Foundation for Email parser ([Inky](https://github.com/zurb/inky)).
