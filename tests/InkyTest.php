@@ -18,7 +18,7 @@ class InkyTest extends PHPUnit_Framework_TestCase {
 
     public function testGridColumns()
     {
-        $inky = new \Hampe\Inky\Inky(10);
+        $inky = new \IncentFit\Inky\Inky(10);
         $this->assertEquals(10, $inky->getGridColumns(), 'Inky Grid Coulmns');
 
         $inky->setGridColumns(23);
@@ -27,7 +27,7 @@ class InkyTest extends PHPUnit_Framework_TestCase {
 
     public function testAlias()
     {
-        $inky = new \Hampe\Inky\Inky();
+        $inky = new \IncentFit\Inky\Inky();
 
         $inky->addAlias('test', 'callout');
         $this->assertContains('test', $inky->getAllAliasForTagName('callout'), 'Inky Alias for Tag');
@@ -44,7 +44,7 @@ class InkyTest extends PHPUnit_Framework_TestCase {
 
     public function testStyles()
     {
-        $inky = new \Hampe\Inky\Inky();
+        $inky = new \IncentFit\Inky\Inky();
 
         $stylesTestCases = array(
             'Style tags are being stripped out #7' => array(

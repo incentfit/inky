@@ -12,10 +12,10 @@
  */ 
 
 
-namespace Hampe\Inky\Component;
+namespace IncentFit\Inky\Component;
 
 
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Inky;
 use PHPHtmlParser\Dom\Collection;
 use PHPHtmlParser\Dom\HtmlNode;
 use PHPHtmlParser\Dom\TextNode;

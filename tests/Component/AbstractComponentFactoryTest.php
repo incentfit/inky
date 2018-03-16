@@ -15,7 +15,7 @@
 namespace Component;
 
 
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Inky;
 use PHPHtmlParser\Dom;
 
 class AbstractComponentFactoryTest extends \PHPUnit_Framework_TestCase {

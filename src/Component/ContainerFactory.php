@@ -12,9 +12,9 @@
  */ 
 
 
-namespace Hampe\Inky\Component;
+namespace IncentFit\Inky\Component;
 
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Inky;
 use PHPHtmlParser\Dom\HtmlNode;
 
 class ContainerFactory extends AbstractComponentFactory

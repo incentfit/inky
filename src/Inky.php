@@ -12,23 +12,23 @@
  */ 
 
 
-namespace Hampe\Inky;
+namespace IncentFit\Inky;
 
 
-use Hampe\Inky\Component\CalloutFactory;
-use Hampe\Inky\Component\BlockGridFactory;
-use Hampe\Inky\Component\ButtonFactory;
-use Hampe\Inky\Component\CenterFactory;
-use Hampe\Inky\Component\ColumnsFactory;
-use Hampe\Inky\Component\ComponentFactoryInterface;
-use Hampe\Inky\Component\ContainerFactory;
-use Hampe\Inky\Component\InkyFactory;
-use Hampe\Inky\Component\MenuFactory;
-use Hampe\Inky\Component\MenuItemFactory;
-use Hampe\Inky\Component\RawFactory;
-use Hampe\Inky\Component\RowFactory;
-use Hampe\Inky\Component\SpacerFactory;
-use Hampe\Inky\Component\WrapperFactory;
+use IncentFit\Inky\Component\CalloutFactory;
+use IncentFit\Inky\Component\BlockGridFactory;
+use IncentFit\Inky\Component\ButtonFactory;
+use IncentFit\Inky\Component\CenterFactory;
+use IncentFit\Inky\Component\ColumnsFactory;
+use IncentFit\Inky\Component\ComponentFactoryInterface;
+use IncentFit\Inky\Component\ContainerFactory;
+use IncentFit\Inky\Component\InkyFactory;
+use IncentFit\Inky\Component\MenuFactory;
+use IncentFit\Inky\Component\MenuItemFactory;
+use IncentFit\Inky\Component\RawFactory;
+use IncentFit\Inky\Component\RowFactory;
+use IncentFit\Inky\Component\SpacerFactory;
+use IncentFit\Inky\Component\WrapperFactory;
 use PHPHtmlParser\Dom;
 use PHPHtmlParser\Dom\AbstractNode;
 use PHPHtmlParser\Dom\Collection;

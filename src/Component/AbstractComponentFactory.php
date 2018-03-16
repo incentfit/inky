@@ -12,7 +12,7 @@
  */ 
 
 
-namespace Hampe\Inky\Component;
+namespace IncentFit\Inky\Component;
 
 
 use PHPHtmlParser\Dom\HtmlNode;
