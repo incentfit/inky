@@ -6,7 +6,7 @@ A PHP Implementation of ZURB's Foundation for Email parser ([Inky](https://githu
 
 You can install this bundle using composer
 
-    composer require hampe/inky
+    composer require incentfit/inky
 
 or add the package to your `composer.json` file directly.
 
@@ -16,7 +16,7 @@ or add the package to your `composer.json` file directly.
 
 ```php
 <?php
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Inky;
 
 $gridColumns = 12; //optional, default is 12
 $additionalComponentFactories = []; //optional
@@ -29,7 +29,7 @@ $inky->releaseTheKraken('html...');
 
 ```php
 <?php
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Inky;
 
 $inky = new Inky();
 $inky->addAlias('test', 'callout')
@@ -44,8 +44,8 @@ Add your own component factory, to convert custom HTML-Tags.
 ```php
 <?php
 
-use Hampe\Inky\Component\ComponentFactoryInterface;
-use Hampe\Inky\Inky;
+use IncentFit\Inky\Component\ComponentFactoryInterface;
+use IncentFit\Inky\Inky;
 use PHPHtmlParser\Dom\HtmlNode;
 
 class TestComponentFactory implements ComponentFactoryInterface
