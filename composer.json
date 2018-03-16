@@ -1,7 +1,7 @@
 {
-    "name": "hampe/inky",
+    "name": "incentfit/inky",
     "description": "PHP Implementation of ZURB's Foundation for Email parser (Inky)",
-    "version":     "1.3.6.2",
+    "version":     "1.3.6.3",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Hampe\\Inky\\": "src/"
+          "IncentFit\\Inky\\": "src/"
         }
     },
     "require": {
